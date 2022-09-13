@@ -310,7 +310,7 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box img{
-    width: 300px;
+    width: auto;
   height: 300px;
     object-fit: fill;
 }
@@ -404,6 +404,8 @@ header .navbar ul li a:hover{
     margin-right: 20px;
     overflow: hidden;
     transition: transform 0.5s;
+    margin: auto ;
+    margin-bottom: 5px;
 }
 .icon img{
     width: 80px;
@@ -520,3 +522,12 @@ header .navbar ul li a:hover{
     padding:1rem 0;
     font-weight: normal;
  }
+
+ @media(max-width:700px){
+    .social{
+
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+ }
+}
